@@ -1,0 +1,185 @@
+
+
+
+/* --------------------------------HỒ SƠ CÁ NHÂN--------------------------------------------- */
+
+.container-three{
+    width: 800px;
+    background-color: #f2f3f7;
+    box-shadow: 0 1px 5px #999;
+    margin: 0 auto;
+    display: flex;
+    /* display: none; */
+}
+
+.col1{
+    width: 30%;
+    /* border: 1px solid var(--text-color); */
+    padding: 6px 12px 6px 12px;
+}
+
+.menu{
+    /* padding: 6px 6px; */
+    width: 100%;
+    box-shadow: 0 1px 5px #999;
+    padding-top: 20px;
+    padding-left: 8px;
+    border-radius: 6px;
+    background-color: #ffffff;
+
+}
+
+.function{
+    cursor: pointer;
+    /* opacity: 1; */
+}
+
+.function-list{
+    padding-left: 0;
+    cursor: pointer;
+}
+
+.function-big{
+    font-size: 1.3rem;
+    color: #000;
+    font-weight: 800;
+}
+.function-name{
+    list-style: none;
+    padding: 8px 0 8px 20px;
+    margin-left: 0;
+    font-size: 1.3rem;
+}
+
+.col2{
+    width: 70%;
+    padding: 6px 6px;
+}
+
+.col2__info{
+    width: 95%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.info__header{
+    /* border: 1px solid #edf2f7; */
+    box-shadow: 0 1px 5px #999;
+    border: none;
+    border-radius: 8px;
+    /* padding: 12px 24px; */
+}
+
+.info__header-add{
+    margin-top: 16px;
+}
+
+.info__header-heading{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    box-shadow: 0 0 1px #999;
+    padding: 8px 24px;
+    line-height: 4rem;
+    /* border-radius: 1px; */
+}
+
+.info__header-heading-title{
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #000;
+}
+
+.info__header-heading-update{
+    font-size: 1.4rem;
+    color:  blue;
+    cursor: pointer;
+}
+
+.info__header-content{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+        padding: 0 24px;
+}
+
+.info__header-content-img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.info-icon-img{
+    color: blue ;
+}
+
+.info__header-content-profile-name{
+    font-size: 1.6rem;
+}
+
+.info__header-content-profile-info{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+.info__container{
+    box-shadow: 0 1px 5px #999;
+    border: none;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.info__container-heading{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    box-shadow: 0 0 1px #999;
+    padding: 8px 24px;
+    line-height: 4rem;
+    cursor: pointer;
+}
+
+.info__container-heading-title{
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #000;
+}
+
+.info__container-heading-data{
+    font-size: 1.4rem;
+    color: blue;
+}
+
+.info__container-content{
+    display: flex;
+}
+
+.info__container-content-col1{
+    padding-bottom: 16px;
+    width: 50%;
+}
+
+.info__container-content-list{
+    padding: 16px 24px 0;
+    margin: 0;
+    line-height: 2rem;
+}
+
+.info__container-content-list-name{
+    list-style: none;
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+.info__container-content-list-location{
+    font-size: 1.4rem;
+    color: #000;
+    font-weight: 500;
+}
+
+.info__container-content-col2{
+    width: 50%;
+}
+
