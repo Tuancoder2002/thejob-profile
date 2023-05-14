@@ -45,10 +45,18 @@
     font-weight: 800;
 }
 .function-name{
+    position: relative;
     list-style: none;
     padding: 8px 0 8px 20px;
     margin-left: 0;
     font-size: 1.3rem;
+    transition: right linear 0.1s;
+    right: 0;
+}
+
+.function-name:hover{
+    right: -4px;
+    color: var(--red-color);
 }
 
 .col2{
@@ -91,11 +99,19 @@
 }
 
 .info__header-heading-update{
+    position: relative;
     font-size: 1.4rem;
     color:  blue;
     cursor: pointer;
+    right: 0;
+    transition: right linear 0.1s;
+
 }
 
+.info__header-heading-update:hover{
+    color: var(--red-color);
+    right: -2px;
+}
 .info__header-content{
     display: flex;
     /* justify-content: space-between; */
@@ -148,8 +164,16 @@
 }
 
 .info__container-heading-data{
+    position: relative;
     font-size: 1.4rem;
     color: blue;
+    right: 0;
+    transition: right linear 0.1s;
+}
+
+.info__container-heading-data:hover{
+    color: var(--red-color);
+    right: -2px;
 }
 
 .info__container-content{
